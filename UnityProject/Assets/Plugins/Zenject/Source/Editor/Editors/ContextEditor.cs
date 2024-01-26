@@ -1,5 +1,3 @@
-using UnityEditor;
-
 #if !ODIN_INSPECTOR
 
 namespace Zenject
@@ -7,8 +5,6 @@ namespace Zenject
     [NoReflectionBaking]
     public class ContextEditor : UnityInspectorListEditor
     {
-        private SerializedProperty _findSiblingInstallers;
-
         protected override string[] PropertyNames
         {
             get
@@ -46,20 +42,6 @@ namespace Zenject
                     "Drag any prefabs that contain a MonoInstaller on them here",
                 };
             }
-        }
-
-        public override void OnEnable()
-        {
-            base.OnEnable();
-            
-            _findSiblingInstallers = serializedObject.FindProperty("_findSiblingMonoInstallers");
-        }
-
-        protected override void OnGui()
-        {
-            base.OnGui();
-            
-            EditorGUILayout.PropertyField(_findSiblingInstallers);
         }
     }
 }

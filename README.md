@@ -1,15 +1,16 @@
 ![Extenject Header Image](Documentation/Images/ExtenjectMainHeader.png)
 
 [![Gitter](https://img.shields.io/static/v1?label=Gitter&labelColor=ED1965&message=Support&color=grey&logo=Gitter&logoColor=White&url=https://gitter.im/Extenject/community)](https://gitter.im/Extenject/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/Mathijs-Bakker/Extenject?color=green)](https://github.com/Mathijs-Bakker/Extenject/releases)
-![GitHub contributors](https://img.shields.io/github/contributors/Mathijs-Bakker/Extenject)
-![GitHub last commit](https://img.shields.io/github/last-commit/Mathijs-Bakker/Extenject)
-[![CI](https://github.com/Mathijs-Bakker/Extenject/actions/workflows/main.yml/badge.svg)](https://github.com/Mathijs-Bakker/Extenject/actions/workflows/main.yml)
-![GitHub](https://img.shields.io/github/license/Mathijs-Bakker/Extenject)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/svermeulen/Extenject?color=green)](https://github.com/svermeulen/Extenject/releases)
+![GitHub Release Date](https://img.shields.io/github/release-date/svermeulen/Extenject)
+![GitHub contributors](https://img.shields.io/github/contributors/svermeulen/Extenject)
+![GitHub last commit](https://img.shields.io/github/last-commit/svermeulen/Extenject)
+![Continuous Integration](https://github.com/svermeulen/Extenject/workflows/Continuous%20Integration/badge.svg?branch=master)
+![GitHub](https://img.shields.io/github/license/svermeulen/Extenject)
 
 # Extenject: extensions, bug fixes and updates for Zenject 
 
-This project is a fork of [Zenject](https://github.com/modesttree/zenject) with the goal of being actively maintained.
+This project is simply a fork of [Zenject](https://github.com/modesttree/zenject) with the goal of being actively maintained.  I am the primary author and was the primary maintainer until my access was removed after leaving my position at the company Modest Tree.  It is called Extenject to respect Modest Tree's [trademark claim](https://github.com/modesttree/Zenject/commit/2cbbf11b344d083cc697d8b248acf41520d72da3) on the name Zenject.
 
 ## Table Of Contents
 
@@ -18,6 +19,8 @@ This project is a fork of [Zenject](https://github.com/modesttree/zenject) with 
 <details>
 <summary>Details</summary>
 
+  - [Lawsuit](#lawsuit)
+  - [Support](#support)
   - [Introduction](#introduction)
   - [Features](#features)
   - [Installation *](#installation-)
@@ -55,7 +58,6 @@ This project is a fork of [Zenject](https://github.com/modesttree/zenject) with 
     - [Decorator Bindings](#decorator-bindings)
   - [Scriptable Object Installer](#scriptable-object-installer)
   - [Runtime Parameters For Installers](#runtime-parameters-for-installers)
-  - [Composite Installers](#composite-installers)
   - [Using Zenject Outside Unity Or For DLLs](#using-zenject-outside-unity-or-for-dlls)
   - [Zenject Settings](#zenject-settings)
   - [Signals](#signals)
@@ -109,6 +111,38 @@ This project is a fork of [Zenject](https://github.com/modesttree/zenject) with 
 </details>
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+## Lawsuit
+```
+
+Extenject has been removed from Asset Store because of a copyright claim by 
+Modest Tree, so the only way to obtain it currently is through the 
+https://github.com/svermeulen/Extenject/releases.
+
+Modest Tree has also blocked me from contributing to zenject github issues and 
+removed me from the zenject gitter chat, so to get my help please report 
+issues https://github.com/svermeulen/Extenject/issues/new, 
+and discuss in the https://gitter.im/Extenject/community instead
+
+They have also filed a lawsuit against me and Unity tells me that they will 
+not re-enable Extenject in the Asset Store until the lawsuit is complete, 
+which might not occur until 2020.
+
+I have been advised not to comment on details of the lawsuit right now 
+however you can read their filing and my defense (both of which are public) 
+for details if interested.  The lawsuit also relates to other MIT licensed 
+open source projects I created such as Projeny and Unity3dAsyncAwaitUtil.
+```
+
+[![Projeny](https://img.shields.io/badge/Projeny-181717?logo=GitHub&logoColor=white)](https://github.com/modesttree/Projeny)
+[![Unity3dAsyncAwaitUtil](https://img.shields.io/badge/Unity3dAsyncAwaitUtil-181717?logo=GitHub&logoColor=white)](hhttps://github.com/modesttree/Unity3dAsyncAwaitUtil)
+[![Modest Tree filing against me](https://img.shields.io/static/v1?label=Public%20PDF&message=Modest%20Tree%20Filing%20Against%20Me&color=red&url=https://drive.google.com/open?id=1pVVCuwsJfhQ-jj2cIe5oF6zNwHITCHbF)](https://drive.google.com/open?id=1pVVCuwsJfhQ-jj2cIe5oF6zNwHITCHbF)
+[![My Defense Fiiing](https://img.shields.io/static/v1?label=Public%20PDF&message=My%20Defense%20Filing&color=success&url=https://drive.google.com/open?id=1CYy2g46b2XiDoIsWb75SgLJoIGakGiyz)](https://drive.google.com/open?id=1CYy2g46b2XiDoIsWb75SgLJoIGakGiyz)
+
+## Support
+
+This project is supported via donations.  If you or your team have found it useful, please consider supporting further development through [patreon](https://www.patreon.com/extenject) or [paypal](https://paypal.me/stevevermeulen)
+
+
 ## Introduction
 
 Note that if you are looking for the older documentation for Zenject you can find that here:  [Zenject 3.x](https://github.com/svermeulen/Extenject/tree/f0dd30ad451dcbc3eb17e636455a6c89b14ad537), [Zenject 4.x](https://github.com/svermeulen/Extenject/tree/0b4a15b1e6e680c94fd34a2d7420eb41e320b21b) and [Zenject 5.x](https://github.com/svermeulen/Extenject/tree/dc019e31dbae09eb53c1638be00f7f002898956c)
@@ -129,7 +163,7 @@ This project is open source.
 
 For general troubleshooting / support, please post to [stack overflow](https://stackoverflow.com/questions/ask) using the tag 'zenject', or post in the [zenject google group](https://groups.google.com/forum/#!forum/zenject/)
 
-Or, if you have found a bug, you are also welcome to create an issue on the [github page](https://github.com/Mathijs-Bakker/Extenject), or a pull request if you have a fix / extension.  There is also a [gitter chat](https://gitter.im/Extenject/community) that you can join for real time discussion.
+Or, if you have found a bug, you are also welcome to create an issue on the [github page](https://github.com/svermeulen/Extenject), or a pull request if you have a fix / extension.  There is also a [gitter chat](https://gitter.im/Extenject/community) that you can join for real time discussion.  Finally, you can also email me directly at sfvermeulen@gmail.com or follow me on twitter at [@steve_verm](https://twitter.com/steve_verm)
 
 ## Features
 
@@ -159,15 +193,15 @@ Or, if you have found a bug, you are also welcome to create an issue on the [git
 * Support for 'reflection baking' to eliminate costly reflection operations completely by directly modifying the generated assemblies
 * Automatic injection of game objects using ZenAutoInjecter component
 
-## Installation ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Mathijs-Bakker/Extenject?color=green)
+## Installation ![GitHub release (latest by date)](https://img.shields.io/github/v/release/svermeulen/Extenject?color=green)
 
-[![GitHub releases](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub%20Releases&labelColor=181717&message=Downloads&color=green&logo=GitHub&logoColor=white)](https://github.com/Mathijs-Bakker/Extenject/releases)
+[![GitHub releases](https://img.shields.io/static/v1?style=for-the-badge&label=GitHub%20Releases&labelColor=181717&message=Downloads&color=green&logo=GitHub&logoColor=white)](https://github.com/svermeulen/Extenject/releases)
 [![Unity](https://img.shields.io/static/v1?style=for-the-badge&label=Unity%20Asset%20Store&labelColor=181717&message=Download&color=green&logo=Unity&logoColor=white)](https://assetstore.unity.com/packages/tools/utilities/extenject-dependency-injection-ioc-157735)
-[![Unity Package](https://img.shields.io/static/v1?style=for-the-badge&label=Unity%20Package&labelColor=181717&message=UPM&color=green&logo=Unity&logoColor=white)](https://github.com/Mathijs-Bakker/Extenject/issues/2)
+[![Unity Package](https://img.shields.io/static/v1?style=for-the-badge&label=Unity%20Package&labelColor=181717&message=UPM&color=green&logo=Unity&logoColor=white)](https://github.com/svermeulen/Extenject/issues/2)
 
 You can install Zenject using any of the following methods
 
-1.  __From [Releases Page](https://github.com/Mathijs-Bakker/Extenject/releases)__
+1.  __From [Releases Page](https://github.com/svermeulen/Extenject/releases)__
     Here you can choose between the following:
 
     * **Zenject-WithAsteroidsDemo.vX.X.unitypackage** - This is equivalent to what you find in the Asset Store and contains both sample games "Asteroids" and "SpaceFighter" as part of the package.  All the source code for Zenject is included here.
@@ -184,19 +218,12 @@ You can install Zenject using any of the following methods
     * This option is a [feature request](https://github.com/svermeulen/Extenject/issues/24). The package will be released when Unity is ready. Unity is not giving any insights on the development status. But the expectation is in the first or second release of 2020.
     * If you can not wait. There is an alternative. But you will need the Unity extension found [here](https://github.com/mob-sakai/UpmGitExtension). And the package found [here](https://github.com/starikcetin/Extenject/tree/upm).
 
-1.  __Unity Package Manager__
-
-    * Use `UnityProject/Assets/Plugins/Zenject/Source/package.json`
-        * Window -> Package Manager
-        * Select `Add package from git URL...`
-        * Use `https://github.com/<organization>/Extenject.git?path=UnityProject/Assets/Plugins/Zenject/Source#<tag>`
-
 1.  __From Source__
 
     * After syncing the git repo, note that you will have to build the `Zenject-Usage.dll` by building the solution at `AssemblyBuild\Zenject-usage\Zenject-usage.sln`.  Or, if you prefer you can get `Zenject-Usage.dll` from Releases section instead
     * Then you can copy the `UnityProject/Assets/Plugins/Zenject` directory to your own Unity3D project.
 
-Note that when importing Zenject into your unity project, you can uncheck any folder underneath the "Samples" or the "Tests" for cases where you don't want to include it, or if you just want the core zenject functionality, you can uncheck the entire "Samples" and "Tests" directory.
+Note that when importing Zenject into your unity project, you can uncheck any folder underneath the OptionalExtras folder for cases where you don't want to include it, or if you just want the core zenject functionality, you can uncheck the entire OptionalExtras directory.
 
 ## History
 
@@ -212,11 +239,11 @@ The Zenject documentation is split up into the following sections.  It is split 
 
 Another great starting point is to watch [this youtube series on zenject](https://www.youtube.com/watch?v=IS2YUIb_w_M&list=PLKERDLXpXl_jNJPY2czQcfPXW4BJaGZc_) created by Infallible Code.
 
-You might also benefit from playing with the provided sample projects (which you can find by opening `Zenject/Samples/SampleGame1` or `Zenject/Samples/SampleGame2`).
+You might also benefit from playing with the provided sample projects (which you can find by opening `Zenject/OptionalExtras/SampleGame1` or `Zenject/OptionalExtras/SampleGame2`).
 
 If you are a DI veteran, then it might be worth taking a look at the [cheatsheet](#cheat-sheet) at the bottom of this page, which should give you an idea of the syntax, which might be all you need to get started.
 
-The tests may also be helpful to show usage for each specific feature (which you can find at `Zenject/Tests/UnitTests` and `Zenject/Tests/IntegrationTests`)
+The tests may also be helpful to show usage for each specific feature (which you can find at `Zenject/OptionalExtras/UnitTests` and `Zenject/OptionalExtras/IntegrationTests`)
 
 Also see [further reading section](#further-reading) for some external zenject tutorials provided elsewhere.
 
@@ -1091,7 +1118,7 @@ There are three ways to do this.
 
 1. **Prefabs within Resources folder**.  You can also place your installer prefabs underneath a Resoures folder and install them directly from code by using the Resources path.  For details on usage see [here](#runtime-parameters-for-installers).
 
-Another option in addition to `MonoInstaller` and `Installer<>` is to use `ScriptableObjectInstaller` which has some unique advantages (especially for settings) - for details see [here](#scriptable-object-installer).
+Another option in addition to `MonoInstaller` and `Installer<>` is to use `ScriptableObjectInstaller` which has some unique advantages (especially for settings) - for details see [here](#scriptableobject-installer).
 
 When calling installers from other installers it is common to want to pass parameters into it.  See [here](#runtime-parameters-for-installers) for details on how that is done.
 
@@ -1319,7 +1346,7 @@ public class TestInstaller : MonoInstaller<TestInstaller>
 
 Now, if we run our scene we can change the speed value to tune the Foo class in real time.
 
-Another (arguably better) way to do this is to use `ScriptableObjectInstaller` instead of `MonoInstaller,` which have the added advantage that you can change your settings at runtime and have those changes automatically persist when play mode is stopped.  See [here](#scriptable-object-installer) for details.
+Another (arguably better) way to do this is to use `ScriptableObjectInstaller` instead of `MonoInstaller,` which have the added advantage that you can change your settings at runtime and have those changes automatically persist when play mode is stopped.  See [here](#scriptableobject-installer) for details.
 
 ## Object Graph Validation
 
@@ -2102,12 +2129,6 @@ public class MainInstaller : MonoInstaller
 
 `ScriptableObjectInstaller` works the same as `MonoInstaller` in this regard.
 
-## Composite Installers
-Extenject allows you to compose your installers into tree structures. The so called *composite design pattern*. Where the `CompositeMonoInstaller` and `CompositeScripableObjectInstaller` are the *nodes* and the child installers the *leaves*.
-A special use case - that's worthwhile to mention - is for smooth installation and updating of your asset packages in other projects. 
-
-Composite Installers have their own documentation [here](Documentation/CompositeInstaller.md).
-
 ## Using Zenject Outside Unity Or For DLLs
 
 If you are building some code as DLLs and then including them in Unity, you can still add bindings for those classes inside your installers, with the only limitation being that you have to use constructor injection.  If you want to use the other inject approaches such as member injection or method injection, then you can do that too, however in that case you will need to add a reference for your project to `Zenject-Usage.dll` which can be found in the `Zenject\Source\Usage` directory.  This DLL also includes the standard interfaces such as `ITickable,` `IInitializable,` etc. so you can use those as well.
@@ -2622,7 +2643,7 @@ Unfortunately, Unity does not guarantee a deterministic destruction order in thi
 
 If the scene destruction order is important to you, then you might consider also changing the ZenjectSetting `Ensure Deterministic Destruction Order On Application Quit` to true.  When this is set to true, this will cause all scenes to be forcefully destroyed during the OnApplicationQuit event, using a more sensible order than what unity does by default.  It will first destroy all scenes in the reverse order that they were loaded in (so that earlier loaded scenes are destroyed later) and will finish by destroying the DontDestroyOnLoad objects which include project context.
 
-The reason this setting is not set to true by default is because it can cause crashes on Android as discussed [here](https://github.com/ssannandeji/Zenject-2019/issues/301).
+The reason this setting is not set to true by default is because it can cause crashes on Android as discussed [here](https://github.com/modesttree/Zenject/issues/301).
 
 ## UniRx Integration
 
@@ -2859,7 +2880,7 @@ There are two settings on ProjectContext related to reflection baking that can b
 
 ## Upgrade Guide for Zenject 6
 
-The biggest backwards-incompatible change in Zenject 6 is that the signals system was re-written from scratch and works quite differently now.  However - if you want to continue using the previous signals implementation you can get a zenject-6-compatible version of that [here](https://github.com/svermeulen/ZenjectSignalsOld). So to use that, just import zenject 6 and make sure to uncheck the `Zenject/Source/Runtime/Signals` folder, and then add the ZenjectSignalsOld folder to your project from that link.
+The biggest backwards-incompatible change in Zenject 6 is that the signals system was re-written from scratch and works quite differently now.  However - if you want to continue using the previous signals implementation you can get a zenject-6-compatible version of that [here](https://github.com/svermeulen/ZenjectSignalsOld). So to use that, just import zenject 6 and make sure to uncheck the `OptionalExtras/Signals` folder, and then add the ZenjectSignalsOld folder to your project from that link.
 
 Another backwards-incompatible change in zenject 6 is that AsSingle can no longer be used across multiple bind statements when mapping to the same instance.  In Zenject 5.x and earlier, you could do the following:
 
@@ -2913,7 +2934,8 @@ Another change that may cause issues is that for every binding that is a lookup 
 
 So if you were previously using one of these methods to match multiple values you will have to change to use the plural version instead.
 
-Another change worth mentioning is that the default value for the 'includeInactive' flag passed to the FromComponent methods was changed from false to true as discussed [here](https://github.com/ssannandeji/Zenject-2019/issues/275)
+Another change worth mentioning is that the default value for the 'includeInactive' flag passed to the FromComponent methods was changed from false to true as discussed [here](https://github.com/modesttree/Zenject/issues/275#issuecomment-377619400)
+
 There were also a few things that were renamed:
 
 - `Factory<>` is now called `PlaceholderFactory<>` (in this case you should just get warnings about it however)
