@@ -1,3 +1,11 @@
+For import: manifest.json
+```json
+{
+  "dependencies": {
+    "com.kohnolibs.extenject": "https://github.com/KohnoLibs/Extenject.git?path=/UnityProject/Assets/Plugins/Zenject"
+  }
+}
+```
 ![Extenject Header Image](Documentation/Images/ExtenjectMainHeader.png)
 
 [![Gitter](https://img.shields.io/static/v1?label=Gitter&labelColor=ED1965&message=Support&color=grey&logo=Gitter&logoColor=White&url=https://gitter.im/Extenject/community)](https://gitter.im/Extenject/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
