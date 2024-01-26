@@ -6,8 +6,10 @@
 /obj
 /Logs
 /Packages
+/ProjectSettings
 
 /.vs
+*.vsconfig
 
 #ignoring pidb, they are just code completion caching data according to:
 # http://stackoverflow.com/questions/1022111/what-are-monodevelops-pidb-files
