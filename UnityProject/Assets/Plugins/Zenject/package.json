@@ -1,7 +1,7 @@
 {
 	"name": "com.kohnolibs.extenject",
 	"displayName": "Extenject",
-	"version": "0.0.3",
+	"version": "0.0.2",
 	"description": "Dependency Injection Framework for Unity3D",
 	"dependencies": {},
 	"author": {
@@ -13,12 +13,12 @@
 		{
 		  "displayName": "SampleGame1",
 		  "description": "Beginner",
-		  "path": "OptionalExtras/SampleGame1 (Beginner)"
+		  "path": "Samples~/SampleGame1 (Beginner)"
 		},
 		{
 			"displayName": "SampleGame2",
 			"description": "Advanced",
-			"path": "OptionalExtras/SampleGame2 (Advanced)"
+			"path": "Samples~/SampleGame2 (Advanced)"
 		  }
 	  ]
 }
