@@ -1,8 +1,12 @@
-  
 {
 	"name": "com.kohnolibs.extenject",
 	"displayName": "Extenject",
 	"version": "0.0.1",
 	"description": "Dependency Injection Framework for Unity3D",
+	"author": {
+		"name": "Konstantin Kokhno",
+		"email": "kkohno@mail.ru",
+		"url": "https://github.com/kkohno"
+	},
 	"dependencies": {}
 }
