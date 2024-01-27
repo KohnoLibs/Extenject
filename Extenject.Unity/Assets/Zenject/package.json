@@ -3,7 +3,9 @@
 	"displayName": "Extenject",
 	"version": "0.0.2",
 	"description": "Dependency Injection Framework for Unity3D",
-	"dependencies": {},
+	"dependencies": {
+		"com.unity.ext.nunit": "2.0.3"
+	},
 	"author": {
 		"name": "Konstantin Kokhno",
 		"email": "kkohno@mail.ru",
