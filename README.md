@@ -2,7 +2,7 @@ For import: manifest.json
 ```json
 {
   "dependencies": {
-    "com.kohnolibs.extenject": "https://github.com/KohnoLibs/Extenject.git?path=/UnityProject/Assets/Plugins/Zenject"
+    "com.kohnolibs.extenject": "https://github.com/KohnoLibs/Extenject.git?path=/Extenject.Unity/Assets/Zenject"
   }
 }
 ```
